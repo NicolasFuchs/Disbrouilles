@@ -1,0 +1,77 @@
+body {
+    background-image: url("../Images/wood.jpg");
+    color: white;
+    text-align: center;
+//font-family: handMade;
+}
+@font-face {
+    font-family: handMade;
+    src: url("../Font/HandMade.otf");
+}
+::-webkit-scrollbar {
+    display: none;  // Safari and Chrome
+}
+
+nav {
+    background-color: #202020;
+    height: 130px;
+    line-height: 130px;
+}
+nav.nav-center ul {
+    height: 100%;
+}
+nav.nav-center ul li {
+    height: 100%;
+    width: 200px;
+}
+nav.nav-center ul li a {
+    height: 100%;
+}
+.active {
+    background-color: black;
+}
+nav.nav-center a.left {
+    height: 100%;
+}
+nav.nav-center .right{
+    line-height: 50px;
+    margin-right: 20px;
+}
+nav.nav-center #connect {
+    text-align: center;
+}
+nav.nav-center .right a {
+    height: 50%;
+}
+nav.nav-center .right form {
+    height: 50%;
+    border: 1px solid white;
+    border-radius: 50px 50px 50px 50px;
+}
+nav.nav-center #search {
+    border-radius: 50px 50px 50px 50px;
+}
+.input-field .label-icon, .input-field .material-icons {
+    line-height: 160%;
+    background-color: #00000000;
+}
+.input-field #close {
+    line-height: 200%;
+}
+
+.page-footer {
+    background-color: #202020;
+}
+.reseau {
+    height: 40px;
+    width: 40px;
+}
+.row {
+    width: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contact {
+    display: table-cell;
+    vertical-align: middle;
+}

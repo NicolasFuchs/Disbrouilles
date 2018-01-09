@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="Stylesheets/Accueil.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <title>Carousel</title>
+</head>
+<body>
+    <main>
+        <div class="carousel carousel-slider">
+            <a class="carousel-item" href=""><div><img src="Images/Carousel/bijoux.jpg"></div></a>
+            <a class="carousel-item" href=""><div><img src="Images/Carousel/confitures.jpg"></div></a>
+            <a class="carousel-item" href=""><div><img src="Images/Carousel/deco.jpg"></div></a>
+            <a class="carousel-item" href=""><div><img src="Images/Carousel/vase.jpg"></div></a>
+        </div>
+        <script>
+            $('.carousel.carousel-slider').carousel();
+            autoplay();
+            function autoplay() {
+                $('.carousel.carousel-slider').carousel('next');
+                setTimeout(autoplay, 5000);
+            }
+        </script>
+    </main>
+</body>
+</html>
